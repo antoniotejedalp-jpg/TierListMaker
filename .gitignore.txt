@@ -1,0 +1,6 @@
+/target/
+/.nb-gradle/
+/nbproject/private/
+/build/
+.nb-conf
+.nbattrs

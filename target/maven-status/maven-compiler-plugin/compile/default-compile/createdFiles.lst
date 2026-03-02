@@ -1,0 +1,6 @@
+progs\tierlistmaker\MenuTierListController.class
+progs\tierlistmaker\App.class
+progs\tierlistmaker\Usuario.class
+progs\tierlistmaker\ConexionDB.class
+progs\tierlistmaker\LoginController.class
+progs\tierlistmaker\PanelAdminController.class
