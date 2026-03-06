@@ -49,6 +49,7 @@ public class LoginController implements Initializable {
             
             if (rs.next()) {
                 // 1. Leemos qué rol tiene la persona que acaba de entrar
+                App.idUsuarioActual = rs.getInt("id");
                 String rol = rs.getString("rol");
                 System.out.println("¡Login exitoso! Rol detectado: " + rol);
                 

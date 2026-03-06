@@ -15,6 +15,9 @@ public class App extends Application {
 
     private static Scene scene;
 
+    // Guardará el ID del usuario que inicie sesión para usarlo al guardar/cargar
+    public static int idUsuarioActual = -1; 
+
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("login"), 332, 362);

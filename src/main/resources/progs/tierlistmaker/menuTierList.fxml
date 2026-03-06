@@ -33,5 +33,7 @@
       <Button fx:id="btnBajar" layoutX="1141.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleBajarTier" text="Bajar" />
       <Button fx:id="btnCerrarSesion" layoutX="1056.0" layoutY="748.0" mnemonicParsing="false" onAction="#handleCerrarSesion" text="Cerrar sesión" />
       <ColorPicker fx:id="cpColor" layoutX="1014.0" layoutY="125.0" prefHeight="25.0" prefWidth="99.0" />
+      <Button fx:id="btnGuardar" layoutX="1014.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleGuardarTierList" text="Guardar" />
+      <Button fx:id="btnCargar" layoutX="1014.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleCargarTierList" text="Cargar" />
    </children>
 </AnchorPane>
