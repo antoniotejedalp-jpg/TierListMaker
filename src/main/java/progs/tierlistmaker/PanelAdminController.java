@@ -99,7 +99,6 @@ public class PanelAdminController implements Initializable {
         Usuario seleccionado = tablaUsuarios.getSelectionModel().getSelectedItem();
         if (seleccionado == null) return;
 
-        // Cuadro de texto para pedir el nuevo nombre
         TextInputDialog dialog = new TextInputDialog(seleccionado.getUsuario());
         dialog.setTitle("Modificar Usuario");
         dialog.setHeaderText("Cambiando nombre a: " + seleccionado.getUsuario());
